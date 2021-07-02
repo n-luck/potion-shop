@@ -3,7 +3,7 @@ import "./footer.styles.scss";
 
 const Footer = () => (
     <div className="footer">
-        <p>Shop is run by Witch in Barovia</p>
+        <p>Address: Outside Vallaki on the road towards Krezk. No deliveries.</p>
     </div>
 );
 
