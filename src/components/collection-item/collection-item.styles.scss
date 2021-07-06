@@ -5,6 +5,16 @@
     height: 250px;
     align-items: center;
     margin-bottom: 20px;
+    cursor: pointer;
+
+    .pdp-link {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      text-decoration: none;
+      color: #fff;
+    }
   
     .image {
       width: 100%;
