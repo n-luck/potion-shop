@@ -12,7 +12,7 @@ const SHOP_DATA = [
           currency: "GP",
           rarity: "Common",
           type: "Ingested",
-          effects: "HP regained: 2d4 + 2",
+          effects: "You regain hit points when you drink this potion. The number of hit points depends on the potion’s rarity, as shown in the Potions of Healing table. Whatever its potency, the potion’s red liquid glimmers when agitated. HP regained: 2d4 + 2.",
           pdpUrl: "healingpotions/potionofhealing"
         },
         {
@@ -23,7 +23,7 @@ const SHOP_DATA = [
           currency: "GP",
           rarity: "Uncommon",
           type: "Ingested",
-          effects: "HP regained: 4d4 + 4",
+          effects: "You regain hit points when you drink this potion. The number of hit points depends on the potion’s rarity, as shown in the Potions of Healing table. Whatever its potency, the potion’s red liquid glimmers when agitated. HP regained: 4d4 + 4.",
           pdpUrl: "healingpotions/potionofgreaterhealing"      
         },
         {
@@ -34,7 +34,7 @@ const SHOP_DATA = [
           currency: "GP",
           rarity: "Rare",
           type: "Ingested",
-          effects: "HP regained: 8d4 + 8",
+          effects: "You regain hit points when you drink this potion. The number of hit points depends on the potion’s rarity, as shown in the Potions of Healing table. Whatever its potency, the potion’s red liquid glimmers when agitated. HP regained: 8d4 + 8.",
           pdpUrl: "healingpotions/potionofsuperiorhealing"
         },
         {
@@ -45,7 +45,7 @@ const SHOP_DATA = [
           currency: "GP",
           rarity: "Very rare",
           type: "Ingested",
-          effects: "HP regained: 10d4 + 20",
+          effects: "You regain hit points when you drink this potion. The number of hit points depends on the potion’s rarity, as shown in the Potions of Healing table. Whatever its potency, the potion’s red liquid glimmers when agitated. HP regained: 10d4 + 20.",
           pdpUrl: "healingpotions/potionofsupremehealing"
         }
       ]

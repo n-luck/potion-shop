@@ -15,5 +15,3 @@ const CollectionItem = ({id, name, price, currency, imageUrl, rarity, type, effe
 );
 
 export default CollectionItem;
-
-// onClick={() => history.push(`${linkUrl}`)}
