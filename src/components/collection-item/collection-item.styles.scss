@@ -6,6 +6,14 @@
     align-items: center;
     margin-bottom: 20px;
     cursor: pointer;
+    position: relative;
+
+    &:hover {
+      .custom-button {
+        opacity: 0.85;
+        display: inline-block;
+      }
+    }
 
     .pdp-link {
       display: flex;
@@ -23,6 +31,14 @@
       background-position: center;
       margin-bottom: 5px;
       box-shadow: 0 0 5px #000;
+    }
+
+    .custom-button {
+      width: 80%;
+      opacity: 0.7;
+      position: absolute;
+      top: 65%;
+      display: none;
     }
   
     .collection-footer {

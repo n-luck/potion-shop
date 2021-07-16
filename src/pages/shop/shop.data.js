@@ -56,7 +56,7 @@ const SHOP_DATA = [
       routeName: 'poisons',
       items: [
         {
-          id: 1,
+          id: 5,
           name: 'The Poison. The Poison for Kuzko. The poison chosen specifically to kill Kuzko. Kuzko\'s poison',
           imageUrl: 'https://i.imgur.com/fqPsbEM.jpg',
           price: 220,
@@ -66,7 +66,7 @@ const SHOP_DATA = [
           pdpUrl: "kuzkospoison"
         },
         {
-          id: 2,
+          id: 6,
           name: 'Assassin’s blood',
           imageUrl: 'https://i.imgur.com/rm8cORm.jpg',
           price: 150,
@@ -76,7 +76,7 @@ const SHOP_DATA = [
           pdpUrl: "assassinsblood"
         },
         {
-          id: 3,
+          id: 7,
           name: 'Crawler mucus',
           imageUrl: 'https://i.imgur.com/wFoBFzx.jpg',
           price: 200,
@@ -86,7 +86,7 @@ const SHOP_DATA = [
           pdpUrl: "crawlermucus"
         },
         {
-          id: 4,
+          id: 8,
           name: 'Drow poison',
           imageUrl: 'https://i.imgur.com/D2pAZGH.png',
           price: 200,
@@ -96,7 +96,7 @@ const SHOP_DATA = [
           pdpUrl: "drowpoison"
         },
         {
-          id: 5,
+          id: 9,
           name: 'Essence of ether',
           imageUrl: 'https://i.imgur.com/0TRBg4K.jpg',
           price: 300,
@@ -106,7 +106,7 @@ const SHOP_DATA = [
           pdpUrl: "essenceofether"
         },
         {
-          id: 6,
+          id: 10,
           name: 'Malice',
           imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
           price: 250,
@@ -116,7 +116,7 @@ const SHOP_DATA = [
           pdpUrl: "malice"
         },
         {
-          id: 7,
+          id: 11,
           name: 'Midnight tears',
           imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
           price: 1500,
@@ -126,7 +126,7 @@ const SHOP_DATA = [
           pdpUrl: "midnighttears"
         },
         {
-          id: 8,
+          id: 12,
           name: ' Purple Worm poison',
           imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
           price: 2000,
@@ -143,7 +143,7 @@ const SHOP_DATA = [
       routeName: 'magicpotions',
       items: [
         {
-          id: 1,
+          id: 13,
           name: 'Potion of Flying',
           imageUrl: 'https://i.imgur.com/ZOfg3N4.jpg',
           price: 7000,
@@ -153,7 +153,7 @@ const SHOP_DATA = [
           pdpUrl: "potionofflying"
         },
         {
-          id: 2,
+          id: 14,
           name: 'Potion of Growth',
           imageUrl: 'https://i.imgur.com/6cmw7hL.jpg',
           price: 400,
@@ -163,7 +163,7 @@ const SHOP_DATA = [
           pdpUrl: "potionofgrowth"
         },
         {
-          id: 3,
+          id: 15,
           name: 'Potion of Invisibility',
           imageUrl: 'https://i.imgur.com/ChsVH1d.jpg',
           price: 10000,
@@ -173,7 +173,7 @@ const SHOP_DATA = [
           pdpUrl: "potionofinvisibility"
         },
         {
-          id: 4,
+          id: 16,
           name: 'Potion of Mind Reading',
           imageUrl: 'https://i.imgur.com/SM8Knox.jpg',
           price: 2500,
@@ -183,7 +183,7 @@ const SHOP_DATA = [
           pdpUrl: "potionofmindreading"
         },
         {
-          id: 5,
+          id: 17,
           name: 'Potion of Water Breathing',
           imageUrl: 'https://i.imgur.com/KNHukXJ.jpg',
           price: 200,
@@ -200,7 +200,7 @@ const SHOP_DATA = [
       routeName: 'spellscrolls',
       items: [
         {
-          id: 1,
+          id: 18,
           name: 'Scroll of Haste',
           imageUrl: 'https://i.imgur.com/3gTmqyn.jpg',
           price: 500,
@@ -209,7 +209,7 @@ const SHOP_DATA = [
           pdpUrl: "scrollofhaste"
         },
         {
-          id: 2,
+          id: 19,
           name: 'Scroll of Identify',
           imageUrl: 'https://i.imgur.com/BbUy0M3.jpg',
           price: 100,
@@ -218,7 +218,7 @@ const SHOP_DATA = [
           pdpUrl: "scrollofidentify"
         },
         {
-          id: 3,
+          id: 20,
           name: 'Scroll of Freedom of Movement',
           imageUrl: 'https://i.imgur.com/5yZDnqh.jpg',
           price: 600,
@@ -227,7 +227,7 @@ const SHOP_DATA = [
           pdpUrl: "scrolloffreedomofmovement"
         },
         {
-          id: 4,
+          id: 21,
           name: 'Scroll of Gentle Repose',
           imageUrl: 'https://i.imgur.com/cpBlADs.jpg',
           price: 250,
@@ -236,7 +236,7 @@ const SHOP_DATA = [
           pdpUrl: "scrollofgentlerepose"
         },
         {
-          id: 5,
+          id: 22,
           name: 'Scroll of Tiny Hut',
           imageUrl: 'https://i.imgur.com/yz1fkyR.jpg',
           price: 500,
@@ -245,7 +245,7 @@ const SHOP_DATA = [
           pdpUrl: "scrolloftinyhut"
         },
         {
-          id: 6,
+          id: 23,
           name: 'Scroll of Augury',
           imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
           price: 150,
@@ -254,7 +254,7 @@ const SHOP_DATA = [
           pdpUrl: "scrollofaugury"
         },
         {
-          id: 7,
+          id: 24,
           name: 'Scroll of Polymorph',
           imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
           price: 1000,
@@ -270,7 +270,7 @@ const SHOP_DATA = [
       routeName: 'wondrousitems',
       items: [
         {
-          id: 1,
+          id: 25,
           name: 'Deck of Many Things',
           imageUrl: 'https://i.imgur.com/xegA44B.jpg',
           price: 500000,
@@ -280,7 +280,7 @@ const SHOP_DATA = [
           pdpUrl: "deckofmanythings"
         },
         {
-          id: 2,
+          id: 26,
           name: 'Alchemy Jug',
           imageUrl: 'https://i.imgur.com/jjT5OXf.jpg',
           price: 100,
@@ -290,7 +290,7 @@ const SHOP_DATA = [
           pdpUrl: "alchemyjug"
         },
         {
-          id: 3,
+          id: 27,
           name: 'Amulet of the Drunkard',
           imageUrl: 'https://i.imgur.com/NTAU5yi.jpg',
           price: 150,
@@ -300,7 +300,7 @@ const SHOP_DATA = [
           pdpUrl: "amuletofthedrunkard"
         },
         {
-          id: 4,
+          id: 28,
           name: 'Boots of Speed',
           imageUrl: 'https://i.imgur.com/btZI1qi.jpg',
           price: 3000,
@@ -310,7 +310,7 @@ const SHOP_DATA = [
           pdpUrl: "bootsofspeed"
         },
         {
-          id: 5,
+          id: 29,
           name: 'Cloak of Elvenkind',
           imageUrl: 'https://i.imgur.com/0v7ocdF.jpg',
           price: 500,
@@ -320,7 +320,7 @@ const SHOP_DATA = [
           pdpUrl: "cloakofelvenkind"
         },
         {
-          id: 6,
+          id: 30,
           name: 'Lantern of Revealing',
           imageUrl: 'https://i.imgur.com/2pZiJ19.jpg',
           price: 350,

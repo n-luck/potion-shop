@@ -1,17 +1,28 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import CustomButton from "../custom-button/custom-button.component";
+import {connect} from "react-redux";
+import { addItem } from "../../redux/cart/cart.actions";
 import "./collection-item.styles.scss";
 
-const CollectionItem = ({id, name, price, currency, imageUrl, rarity, type, effects, pdpUrl}) => (
-    <div className="collection-item" key={id}>
-        <Link to={{pathname: `/pdp/${pdpUrl}`, state: {id, name, price, rarity, type, effects, currency, imageUrl}}} className="pdp-link">
-            <div className="image" style={{backgroundImage: `url(${imageUrl})`}} />
-            <div className="collection-footer">
-                <span className="name">{name}</span>
-                <span className="price">{price} {currency}</span>
-            </div>
-        </Link>
-    </div>
-);
+const CollectionItem = ({item, addItem}) => {
+    const {id, pdpUrl, name, price, rarity, type, effects, currency, imageUrl} = item;
+    return (
+        <div className="collection-item" key={id}>
+            <Link to={{pathname: `/pdp/${pdpUrl}`, state: {id, name, price, rarity, type, effects, currency, imageUrl}}} className="pdp-link">
+                <div className="image" style={{backgroundImage: `url(${imageUrl})`}} />
+                <div className="collection-footer">
+                    <span className="name">{name}</span>
+                    <span className="price">{price} {currency}</span>
+                </div>
+            </Link>
+            <CustomButton onClick={() => addItem(item)} isATB>Add to bag</CustomButton>
+        </div>
+    )
+};
 
-export default CollectionItem;
+const mapDispatchToProps = dispatch => ({
+    addItem: item => dispatch(addItem(item))
+});
+
+export default connect(null, mapDispatchToProps)(CollectionItem);
