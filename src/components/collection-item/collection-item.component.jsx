@@ -8,8 +8,8 @@ import "./collection-item.styles.scss";
 const CollectionItem = ({item, addItem}) => {
     const {id, pdpUrl, name, price, rarity, type, effects, currency, imageUrl} = item;
     return (
-        <div className="collection-item" key={id}>
-            <Link to={{pathname: `/pdp/${pdpUrl}`, state: {id, name, price, rarity, type, effects, currency, imageUrl}}} className="pdp-link">
+        <div className="collection-item" key={id} item={item}>
+            <Link to={{pathname: `/pdp/${pdpUrl}`, state: {item, id, name, price, rarity, type, effects, currency, imageUrl}}} className="pdp-link">
                 <div className="image" style={{backgroundImage: `url(${imageUrl})`}} />
                 <div className="collection-footer">
                     <span className="name">{name}</span>
@@ -17,6 +17,7 @@ const CollectionItem = ({item, addItem}) => {
                 </div>
             </Link>
             <CustomButton onClick={() => addItem(item)} isATB>Add to bag</CustomButton>
+            {console.log("Item PLP: " + item)}
         </div>
     )
 };

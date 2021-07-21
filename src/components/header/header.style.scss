@@ -27,6 +27,27 @@
         font-size: 22px;
         font-weight: 600;
         cursor: pointer;
+        display: inline;
+      }
+    }
+
+    .greeting {
+      display: inline;
+      padding: 10px 0 10px 15px;
+      text-transform: uppercase;
+      color: #fff;
+      text-decoration: none;
+      font-family: "Open Sans Condensed";
+      font-size: 22px;
+      font-weight: 600;
+
+      &::after {
+        content: "|";
+        padding-left: 15px;
+      }
+
+      .displayname {
+        margin-left: 3px;
       }
     }
   }
