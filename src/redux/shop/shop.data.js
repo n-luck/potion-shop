@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-    {
+const SHOP_DATA = {
+    healingpotions: {
       id: 1,
       title: 'Healing Potions',
       routeName: 'healingpotions',
@@ -50,7 +50,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    poisons: {
       id: 2,
       title: 'Poisons',
       routeName: 'poisons',
@@ -137,7 +137,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    magicpotions: {
       id: 3,
       title: 'Magic Potions',
       routeName: 'magicpotions',
@@ -194,7 +194,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    scrolls: {
       id: 4,
       title: 'Spell Scrolls',
       routeName: 'spellscrolls',
@@ -264,7 +264,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+    wondrousitems: {
       id: 5,
       title: 'Wondrous Items',
       routeName: 'wondrousitems',
@@ -331,6 +331,6 @@ const SHOP_DATA = [
         }
       ]
     }
-  ];
+  };
 
   export default SHOP_DATA;
