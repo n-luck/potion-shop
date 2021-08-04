@@ -20,7 +20,7 @@ const CollectionItemDetail = (item) => {
                     <p className="product-type">{type}</p>
                 </div>
                 <p className="product-effects">{effects}</p>
-                <CustomButton onClick={() => addItem(item)} isATB>Add to bag</CustomButton>
+                {/* <CustomButton onClick={() => addItem(item)} isATB>Add to bag</CustomButton> */}
                 {console.log("Item PDP: " + item.location.state.item)}
             </div>
         </div>

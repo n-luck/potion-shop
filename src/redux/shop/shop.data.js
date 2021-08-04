@@ -88,7 +88,7 @@ const SHOP_DATA = {
         {
           id: 8,
           name: 'Drow poison',
-          imageUrl: 'https://i.imgur.com/D2pAZGH.png',
+          imageUrl: 'https://i.imgur.com/gksNt5W.jpg',
           price: 200,
           currency: "GP",
           type: "Injury",
@@ -108,7 +108,7 @@ const SHOP_DATA = {
         {
           id: 10,
           name: 'Malice',
-          imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
+          imageUrl: 'https://i.imgur.com/1OXVwQQ.jpg',
           price: 250,
           currency: "GP",
           type: "Inhaled",
@@ -118,7 +118,7 @@ const SHOP_DATA = {
         {
           id: 11,
           name: 'Midnight tears',
-          imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
+          imageUrl: 'https://i.imgur.com/MfY5lIE.jpg',
           price: 1500,
           currency: "GP",
           type: "Ingested",
@@ -128,7 +128,7 @@ const SHOP_DATA = {
         {
           id: 12,
           name: ' Purple Worm poison',
-          imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
+          imageUrl: 'https://i.imgur.com/7H2l6r5.jpg',
           price: 2000,
           currency: "GP",
           type: "Injury",
@@ -247,7 +247,7 @@ const SHOP_DATA = {
         {
           id: 23,
           name: 'Scroll of Augury',
-          imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
+          imageUrl: 'https://i.imgur.com/1TXju4K.jpg',
           price: 150,
           currency: "GP",
           effects: "By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. ",
@@ -256,7 +256,7 @@ const SHOP_DATA = {
         {
           id: 24,
           name: 'Scroll of Polymorph',
-          imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
+          imageUrl: 'https://i.imgur.com/veav2uR.jpg',
           price: 1000,
           currency: "GP",
           effects: "This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. The spell has no effect on a shapechanger or a creature with 0 hit points.",

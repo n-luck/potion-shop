@@ -29,5 +29,47 @@
       font-size: 36px;
       font-family: "Open Sans Condensed";
     }
+
+    button {
+      margin: 20px auto 0;
+      background: #000 !important;
+      border-radius: 0 !important;
+
+      span {
+        min-width: 165px !important;
+        width: auto;
+        height: 50px !important;
+        letter-spacing: 0.5px;
+        line-height: 48px !important;
+        padding: 0 !important;
+        font-size: 20px !important;
+        background: black !important;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Open Sans Condensed' !important;
+        font-weight: bolder !important;
+        cursor: pointer;
+        display: inline-block !important;
+        border: 1px solid #000 !important;
+        text-align: center;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+
+        &:hover {
+          background-color: white !important;
+          color: black !important;
+          border: 1px solid black;
+        }
+      }
+      
+    }
+
+    .test-warning {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 24px;
+      color: #fff;
+      font-weight: bold;
+    }
   }
   

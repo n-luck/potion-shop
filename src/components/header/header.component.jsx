@@ -13,7 +13,7 @@ import "./header.style.scss";
 const Header = ({currentUser, hidden}) => (
     <div className="header">
         <Link className="logo-container" to="/">
-            <Logo className="logo" />
+            <img src="https://i.imgur.com/EanOveR.png" class="logo" />
         </Link>
         <div className="options">
             <Link className="option" to="/shop">
