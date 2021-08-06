@@ -1,7 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import {connect} from "react-redux";
-import {ReactComponent as Logo} from "../../assets/crown.svg";
 import {auth} from "../../firebase/firebase.utils";
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
@@ -13,7 +12,7 @@ import "./header.style.scss";
 const Header = ({currentUser, hidden}) => (
     <div className="header">
         <Link className="logo-container" to="/">
-            <img src="https://i.imgur.com/EanOveR.png" class="logo" />
+            <img src="https://i.imgur.com/EanOveR.png" class="logo" alt="logo" />
         </Link>
         <div className="options">
             <Link className="option" to="/shop">
