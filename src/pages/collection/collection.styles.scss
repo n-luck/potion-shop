@@ -18,3 +18,10 @@
     }
   }
   
+  @media screen and (max-width: 680px) {
+    .collection-page .items {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
