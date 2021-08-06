@@ -75,3 +75,12 @@
         height: 350px;
     }
 }
+
+@media screen and (max-width: 680px) {
+  .collection-item .custom-button {
+    display: inline-block;
+    top: 63%;
+    height: 40px;
+    line-height: 38px;
+  }
+}
