@@ -73,3 +73,12 @@
     }
   }
   
+  @media screen and (max-width: 680px) {
+    .checkout-page {
+      margin: 0 auto;
+
+      h1 {
+        margin-top: 0;
+      }
+    }
+  }

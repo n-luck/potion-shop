@@ -8,3 +8,11 @@
         margin-top: 10px;
     }
 }
+
+@media screen and (max-width: 680px) {
+    .sign-in-and-sign-up {
+        width: 95%;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
