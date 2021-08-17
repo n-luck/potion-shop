@@ -18,4 +18,5 @@ code {
 h1, h2, h3 {
   font-family: 'MedievalSharp', cursive;
   text-transform: uppercase;
+  margin-top: 0;
 }
